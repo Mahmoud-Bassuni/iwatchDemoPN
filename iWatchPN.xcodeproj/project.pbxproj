@@ -20,6 +20,9 @@
 		697445E12354AF9000575B54 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697445E02354AF9000575B54 /* ExtensionDelegate.swift */; };
 		697445E32354AF9000575B54 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697445E22354AF9000575B54 /* NotificationController.swift */; };
 		697445E52354AF9000575B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697445E42354AF9000575B54 /* Assets.xcassets */; };
+		790949AF340C1B53378BAF24 /* Pods_iWatchPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CB76D8D17B36E645EB0360 /* Pods_iWatchPN.framework */; };
+		A43B81D88FA3D6FAFE2FD7A6 /* Pods_iWatchPN_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E4F32C0E9FCCC4DF6F7C82 /* Pods_iWatchPN_WatchKit_App.framework */; };
+		C208E700E04F1C643F355FF5 /* Pods_iWatchPN_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A76AEEED5BC9B0AEB3BB80 /* Pods_iWatchPN_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02E4F32C0E9FCCC4DF6F7C82 /* Pods_iWatchPN_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWatchPN_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC82359E113103E20B243B3 /* Pods-iWatchPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWatchPN.debug.xcconfig"; path = "Target Support Files/Pods-iWatchPN/Pods-iWatchPN.debug.xcconfig"; sourceTree = "<group>"; };
+		60CB76D8D17B36E645EB0360 /* Pods_iWatchPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWatchPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		697445B82354AF8F00575B54 /* iWatchPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWatchPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697445BB2354AF8F00575B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		697445BD2354AF8F00575B54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +89,13 @@
 		697445E42354AF9000575B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		697445E62354AF9000575B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		697445E72354AF9000575B54 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		69ED6FB12355CBF500812F0E /* iWatchPN WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iWatchPN WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		6DFBCC763D0C261D2C7796FC /* Pods-iWatchPN WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWatchPN WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-iWatchPN WatchKit App/Pods-iWatchPN WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		7358F12CD3E35379E4498F8D /* Pods-iWatchPN WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWatchPN WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-iWatchPN WatchKit App/Pods-iWatchPN WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		7A6C904043CBE487C8D4549C /* Pods-iWatchPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWatchPN.release.xcconfig"; path = "Target Support Files/Pods-iWatchPN/Pods-iWatchPN.release.xcconfig"; sourceTree = "<group>"; };
+		86A76AEEED5BC9B0AEB3BB80 /* Pods_iWatchPN_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWatchPN_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD46D64053A64A0F3D8C270 /* Pods-iWatchPN WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWatchPN WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-iWatchPN WatchKit Extension/Pods-iWatchPN WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		ED6C88589E878D2B7CA81F21 /* Pods-iWatchPN WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWatchPN WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-iWatchPN WatchKit Extension/Pods-iWatchPN WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790949AF340C1B53378BAF24 /* Pods_iWatchPN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +111,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C208E700E04F1C643F355FF5 /* Pods_iWatchPN_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83693CD66685821304C0D652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43B81D88FA3D6FAFE2FD7A6 /* Pods_iWatchPN_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31222E436B6DEE720711CADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60CB76D8D17B36E645EB0360 /* Pods_iWatchPN.framework */,
+				02E4F32C0E9FCCC4DF6F7C82 /* Pods_iWatchPN_WatchKit_App.framework */,
+				86A76AEEED5BC9B0AEB3BB80 /* Pods_iWatchPN_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		697445AF2354AF8F00575B54 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +143,8 @@
 				697445CE2354AF8F00575B54 /* iWatchPN WatchKit App */,
 				697445DD2354AF9000575B54 /* iWatchPN WatchKit Extension */,
 				697445B92354AF8F00575B54 /* Products */,
+				A9EACBCA12C0432DB647F434 /* Pods */,
+				31222E436B6DEE720711CADA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +184,7 @@
 		697445DD2354AF9000575B54 /* iWatchPN WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				69ED6FB12355CBF500812F0E /* iWatchPN WatchKit Extension.entitlements */,
 				697445DE2354AF9000575B54 /* InterfaceController.swift */,
 				697445E02354AF9000575B54 /* ExtensionDelegate.swift */,
 				697445E22354AF9000575B54 /* NotificationController.swift */,
@@ -159,6 +195,20 @@
 			path = "iWatchPN WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		A9EACBCA12C0432DB647F434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BC82359E113103E20B243B3 /* Pods-iWatchPN.debug.xcconfig */,
+				7A6C904043CBE487C8D4549C /* Pods-iWatchPN.release.xcconfig */,
+				7358F12CD3E35379E4498F8D /* Pods-iWatchPN WatchKit App.debug.xcconfig */,
+				6DFBCC763D0C261D2C7796FC /* Pods-iWatchPN WatchKit App.release.xcconfig */,
+				ED6C88589E878D2B7CA81F21 /* Pods-iWatchPN WatchKit Extension.debug.xcconfig */,
+				ECD46D64053A64A0F3D8C270 /* Pods-iWatchPN WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697445F22354AF9000575B54 /* Build configuration list for PBXNativeTarget "iWatchPN" */;
 			buildPhases = (
+				99BD173BD99B58C9F59EE824 /* [CP] Check Pods Manifest.lock */,
 				697445B42354AF8F00575B54 /* Sources */,
 				697445B52354AF8F00575B54 /* Frameworks */,
 				697445B62354AF8F00575B54 /* Resources */,
@@ -185,8 +236,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697445EE2354AF9000575B54 /* Build configuration list for PBXNativeTarget "iWatchPN WatchKit App" */;
 			buildPhases = (
+				A863CBF87100EC925BE2DB26 /* [CP] Check Pods Manifest.lock */,
 				697445C82354AF8F00575B54 /* Resources */,
 				697445ED2354AF9000575B54 /* Embed App Extensions */,
+				83693CD66685821304C0D652 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697445EA2354AF9000575B54 /* Build configuration list for PBXNativeTarget "iWatchPN WatchKit Extension" */;
 			buildPhases = (
+				920AFB2B741F948274C544BB /* [CP] Check Pods Manifest.lock */,
 				697445D52354AF9000575B54 /* Sources */,
 				697445D62354AF9000575B54 /* Frameworks */,
 				697445D72354AF9000575B54 /* Resources */,
+				290A31A34C099C292A959CA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +291,14 @@
 					697445D82354AF9000575B54 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -288,6 +351,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		290A31A34C099C292A959CA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iWatchPN WatchKit Extension/Pods-iWatchPN WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iWatchPN WatchKit Extension/Pods-iWatchPN WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920AFB2B741F948274C544BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iWatchPN WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BD173BD99B58C9F59EE824 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iWatchPN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A863CBF87100EC925BE2DB26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iWatchPN WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		697445B42354AF8F00575B54 /* Sources */ = {
@@ -461,8 +615,10 @@
 		};
 		697445EB2354AF9000575B54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6C88589E878D2B7CA81F21 /* Pods-iWatchPN WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "iWatchPN WatchKit Extension/iWatchPN WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H9L7MTT7T;
 				INFOPLIST_FILE = "iWatchPN WatchKit Extension/Info.plist";
@@ -479,8 +635,10 @@
 		};
 		697445EC2354AF9000575B54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD46D64053A64A0F3D8C270 /* Pods-iWatchPN WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "iWatchPN WatchKit Extension/iWatchPN WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H9L7MTT7T;
 				INFOPLIST_FILE = "iWatchPN WatchKit Extension/Info.plist";
@@ -497,6 +655,7 @@
 		};
 		697445EF2354AF9000575B54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7358F12CD3E35379E4498F8D /* Pods-iWatchPN WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -516,6 +675,7 @@
 		};
 		697445F02354AF9000575B54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFBCC763D0C261D2C7796FC /* Pods-iWatchPN WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -535,6 +695,7 @@
 		};
 		697445F32354AF9000575B54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC82359E113103E20B243B3 /* Pods-iWatchPN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +711,7 @@
 		};
 		697445F42354AF9000575B54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6C904043CBE487C8D4549C /* Pods-iWatchPN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

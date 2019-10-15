@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13196" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38" orientation="portrait">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13196" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gsP-m0-LK8">
+    <device id="watch42" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -9,13 +9,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13051"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
-            <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="iWatchPN_WatchKit_App" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="220" y="345"/>
-        </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>
@@ -38,6 +31,116 @@
                 <controller id="4sK-HA-Art" customClass="NotificationController" customModule="iWatchPN_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="mVe-RA-lGG">
+            <objects>
+                <controller id="gsP-m0-LK8" customClass="InterfaceController" customModule="iWatchPN_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="22" alignment="left" id="WfH-CZ-arb">
+                            <items>
+                                <label width="1" height="39" alignment="left" textAlignment="center" id="har-CA-I34"/>
+                            </items>
+                        </group>
+                        <group height="152" alignment="center" verticalAlignment="center" contentMode="scaleAspectFill" layout="vertical" id="hVZ-Lg-XYt">
+                            <items>
+                                <group width="1" height="26" alignment="left" contentMode="center" id="t0w-Wz-DhC">
+                                    <items>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="1" id="xj1-t0-YbH">
+                                            <accessibilityTraits key="accessibilityTraits" button="YES" keyboardKey="YES"/>
+                                            <connections>
+                                                <action selector="numberOneBtnAction" destination="gsP-m0-LK8" id="EF1-pL-DT6"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="2" id="w2U-lS-eBl">
+                                            <connections>
+                                                <action selector="numberTwoBtnAction" destination="gsP-m0-LK8" id="ggY-AG-AQY"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="3" id="WaB-1I-uak">
+                                            <connections>
+                                                <action selector="numberThreeBtnAction" destination="gsP-m0-LK8" id="1Ls-wP-bf7"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                    <variation key="device=watch38mm" spacing="3"/>
+                                </group>
+                                <group width="1" height="26" alignment="left" contentMode="center" id="hZ6-Zk-1iv">
+                                    <items>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="4" id="LZ9-8r-D8E">
+                                            <connections>
+                                                <action selector="numberFourBtnAction" destination="gsP-m0-LK8" id="jpa-SJ-Mir"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="5" id="WGY-Eh-SPz">
+                                            <connections>
+                                                <action selector="numberFiveBtnAction" destination="gsP-m0-LK8" id="Bpv-Di-juV"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="6" id="8fC-vb-Gds">
+                                            <connections>
+                                                <action selector="numberSixBtnAction" destination="gsP-m0-LK8" id="8x1-qC-Y9z"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                    <variation key="device=watch38mm" spacing="3"/>
+                                </group>
+                                <group width="1" height="26" alignment="left" contentMode="center" id="aW7-JG-zSw">
+                                    <items>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="7" id="eRn-OR-5fg">
+                                            <connections>
+                                                <action selector="numberSevenBtnAction" destination="gsP-m0-LK8" id="RbN-uJ-xsv"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="8" id="Z6E-Aj-UKm">
+                                            <connections>
+                                                <action selector="numberEightBtnAction" destination="gsP-m0-LK8" id="8bN-PY-Vvk"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="9" id="A0e-3s-oIQ">
+                                            <connections>
+                                                <action selector="numberNineBtnAction" destination="gsP-m0-LK8" id="YIm-hW-KtG"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                    <variation key="device=watch38mm" spacing="3"/>
+                                </group>
+                                <group width="1" height="26" alignment="left" contentMode="center" id="Esh-XL-0wa">
+                                    <items>
+                                        <button width="0.33000000000000002" height="1" alignment="left" title="0" id="TJb-8O-LBG">
+                                            <connections>
+                                                <action selector="NumberZeroBtnAction" destination="gsP-m0-LK8" id="bom-0i-Rhr"/>
+                                            </connections>
+                                        </button>
+                                        <button width="100" height="1" alignment="left" title="clear" id="JOE-jd-GHt">
+                                            <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="clearBtnAction" destination="gsP-m0-LK8" id="qWZ-xU-efn"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                    <variation key="device=watch38mm" spacing="3"/>
+                                </group>
+                                <group width="1" height="32" alignment="left" contentMode="center" id="MS4-34-Ukh">
+                                    <items>
+                                        <button width="1" height="1" alignment="left" title="enter" id="IyK-Xf-hh4"/>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                    <variation key="device=watch38mm" spacing="3"/>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="userNameTxt" destination="har-CA-I34" id="s67-k4-ZoZ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="367.89743589743591" y="262.84615384615387"/>
         </scene>
     </scenes>
 </document>
